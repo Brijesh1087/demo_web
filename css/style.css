@@ -51,4 +51,6 @@ body{
 .container-xl.banner .container .container-md{
 	display: block;
 }
+.container-xl.banner .container .container-md button{
+margin:10px auto;
 }
