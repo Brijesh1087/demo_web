@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	width: 100%;
+	height: 100%;
+	background: white;
+}
+
+.container-xl.banner{
+	min-width: 100%;
+	height: 300px;
+	background-image: url(../img/banner.png);
+	background-position: center;
+	background-size: cover;
+}
+.container-xl.banner .container{
+	float: right;
+	
+}
+.container-xl.banner .container .container-md{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.img_size div img{
+	width: 100%;
+	height: 200px;
+}
+
+.img_size,#Developer{
+	font-family: 'Roboto', sans-serif;
+}
+
+#Developer div img{
+	width: 100px;
+	height: 250px;
+}
+@media only screen and (max-width: 400px) {
+	.container-xl.banner{
+		width: 600px;
+	}
+.container-xl.banner .container{
+	float: left;
+}
+.container-xl.banner .container .container-md{
+	display: block;
+}
+}
